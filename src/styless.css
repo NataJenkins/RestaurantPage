@@ -1,0 +1,34 @@
+#content {
+  background-color: #212529;
+}
+
+.bg-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.home-container {
+  position: relative;
+  text-align: center;
+}
+
+.welcome {
+  font-family: "Calligraffitti", cursive;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #89c4d7;
+  font-size: 70px;
+  -webkit-text-stroke: 1px rgb(47, 103, 167);
+}
+
+.home-container h2 {
+  font-family: "Calligraffitti", cursive;
+  color: white;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
