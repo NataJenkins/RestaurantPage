@@ -81,3 +81,10 @@ body {
   color: antiquewhite;
   text-align: justify;
 }
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  justify-content: space-between;
+}

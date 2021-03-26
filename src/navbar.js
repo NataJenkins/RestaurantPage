@@ -4,7 +4,6 @@ const navbar = (() => {
   const nav = document.createElement("nav");
   nav.innerHTML = `
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
   <button
     class="navbar-toggler"
     type="button"
@@ -19,7 +18,7 @@ const navbar = (() => {
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#"
-        >About <span class="sr-only">(current)</span></a
+        >About</a
       >
       <a class="nav-item nav-link" href="#">Menu</a>
       <a class="nav-item nav-link" href="#">Contact</a>
