@@ -1,11 +1,7 @@
 // import "./styless.css";
 import navbar from "./navbar";
 import Home from "./home";
+import Menu from "./menu";
 
-const pageLoad = () => {
-  const htmlElements = [navbar(), Home()];
-  // const container = document.querySelector('#content');
-  // for (let j = 0; j <= htmlElements.length; j += 1) {
-  //   container.appendChild(htmlElements[j]);
-};
+const pageLoad = () => {};
 pageLoad();

@@ -4,6 +4,7 @@ body {
 
 #content {
   background-color: #212529;
+  overflow: hidden;
 }
 
 .bg-img {
@@ -35,4 +36,29 @@ body {
   position: absolute;
   top: 40%;
   width: 100%;
+}
+
+.menu-ite {
+  font-family: "Neuton", serif;
+}
+
+.dish {
+  font-weight: 700;
+  color: rgb(219, 171, 39);
+}
+
+.price {
+  color: antiquewhite;
+}
+
+.menu-contain {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.menu-ite {
+  margin: 2rem;
 }
