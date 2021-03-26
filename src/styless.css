@@ -62,3 +62,22 @@ body {
 .menu-ite {
   margin: 2rem;
 }
+
+.about-container {
+  margin-top: 100px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-container h1 {
+  margin-left: 3rem;
+  font-family: "Calligraffitti", cursive;
+  color: aquamarine;
+}
+
+.about-text {
+  font-family: "Roboto", sans-serif;
+  color: antiquewhite;
+  text-align: justify;
+}

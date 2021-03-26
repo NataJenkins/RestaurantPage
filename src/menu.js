@@ -26,6 +26,7 @@ const Menu = (() => {
 </div>
 </div>
 `;
+  menu.setAttribute("class", "js-menu");
   contentContainer.appendChild(menu);
 })();
 
