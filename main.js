@@ -11,7 +11,7 @@
       const e = document.querySelector("#content"),
         n = document.createElement("header");
       (n.innerHTML =
-        '\n  <div class="home-container tab-content active" id="home">\n  <img class="bg-img" src="../assets/images/main.jpg" />\n  <h1 class="welcome">Welcome</h1>\n  <h2>Greek Food and experience</h2>\n</div>'),
+        '\n  <div class="home-container tab-content active" id="home">\n  <img class="bg-img" src="assets/images/main.jpg" />\n  <h1 class="welcome">Welcome</h1>\n  <h2>Greek Food and experience</h2>\n</div>'),
         n.setAttribute("class", "js-element"),
         e.appendChild(n);
     })(),
