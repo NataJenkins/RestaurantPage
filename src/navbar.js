@@ -17,11 +17,11 @@ const navbar = (() => {
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#"
-        >About</a
+      <a class="nav-item nav-link active" href="#home"
+        >Home</a
       >
-      <a class="nav-item nav-link" href="#">Menu</a>
-      <a class="nav-item nav-link" href="#">Contact</a>
+      <a class="nav-item nav-link" href="#menu">Menu</a>
+      <a class="nav-item nav-link" href="#about">About</a>
     </div>
   </div>
 </nav>`;
