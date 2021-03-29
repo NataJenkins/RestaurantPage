@@ -1,7 +1,7 @@
 const About = (() => {
-  const contentContainer = document.querySelector("#content");
+  const contentContainer = document.querySelector('#content');
 
-  const about = document.createElement("div");
+  const about = document.createElement('div');
   about.innerHTML = `
   <div class="about-container tab-content" id="about">
   <h1>About Us</h1>
@@ -16,7 +16,7 @@ const About = (() => {
   </div>
 </div>
   `;
-  about.setAttribute("class", "js-element");
+  about.setAttribute('class', 'js-element');
   contentContainer.appendChild(about);
 })();
 

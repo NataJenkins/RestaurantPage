@@ -1,7 +1,7 @@
 const Menu = (() => {
-  const contentContainer = document.querySelector("#content");
+  const contentContainer = document.querySelector('#content');
 
-  const menu = document.createElement("div");
+  const menu = document.createElement('div');
   menu.innerHTML = `
     <div class="menu-contain tab-content" id="menu">
 <div class="menu-ite">
@@ -26,7 +26,7 @@ const Menu = (() => {
 </div>
 </div>
 `;
-  menu.setAttribute("class", "js-element");
+  menu.setAttribute('class', 'js-element');
   contentContainer.appendChild(menu);
 })();
 

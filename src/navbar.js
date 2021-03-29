@@ -1,7 +1,7 @@
 const navbar = (() => {
-  const contentContainer = document.querySelector("#content");
+  const contentContainer = document.querySelector('#content');
 
-  const nav = document.createElement("nav");
+  const nav = document.createElement('nav');
   nav.innerHTML = `
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <button
