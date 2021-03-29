@@ -3,7 +3,7 @@ const Menu = (() => {
 
   const menu = document.createElement("div");
   menu.innerHTML = `
-    <div class="menu-contain">
+    <div class="menu-contain" id="menu">
 <div class="menu-ite">
   <div class="dish">Amygdalota</div>
   <div class="price">$2.00</div>
