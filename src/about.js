@@ -3,7 +3,7 @@ const About = (() => {
 
   const about = document.createElement("div");
   about.innerHTML = `
-  <div class="about-container" id="about">
+  <div class="about-container tab-content" id="about">
   <h1>About Us</h1>
   <div class="about-text">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
@@ -16,7 +16,7 @@ const About = (() => {
   </div>
 </div>
   `;
-  about.setAttribute("class", "js-about");
+  about.setAttribute("class", "js-element");
   contentContainer.appendChild(about);
 })();
 

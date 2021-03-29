@@ -1,5 +1,6 @@
 function onTabClick(event) {
   let activeTabs = document.querySelectorAll(".active");
+
   //deactivate tab
   activeTabs.forEach(function (tab) {
     tab.className = tab.className.replace("active", " ");
