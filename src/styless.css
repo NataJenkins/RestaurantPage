@@ -1,0 +1,107 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #212529;
+}
+
+body {
+  background-color: #212529;
+}
+
+#content {
+  background-color: #212529;
+  height: 100%;
+}
+
+.bg-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.home-container {
+  position: relative;
+  text-align: center;
+}
+
+.welcome {
+  font-family: "Calligraffitti", cursive;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #89c4d7;
+  font-size: 70px;
+  -webkit-text-stroke: 1px rgb(47, 103, 167);
+}
+
+.home-container h2 {
+  font-family: "Calligraffitti", cursive;
+  color: white;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+.menu-ite {
+  font-family: "Neuton", serif;
+  margin: 2rem;
+}
+
+.dish {
+  font-weight: 700;
+  color: rgb(219, 171, 39);
+}
+
+.price {
+  color: antiquewhite;
+}
+
+.menu-contain {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.about-container {
+  margin-top: 100px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-container h1 {
+  margin-left: 3rem;
+  font-family: "Calligraffitti", cursive;
+  color: aquamarine;
+}
+
+.about-text {
+  font-family: "Roboto", sans-serif;
+  color: antiquewhite;
+  text-align: justify;
+}
+
+.nav {
+  border-bottom: #89c4d7 1px solid;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  justify-content: space-between;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block !important;
+}
