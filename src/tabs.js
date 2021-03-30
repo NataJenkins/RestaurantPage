@@ -7,7 +7,6 @@ function onTabClick(event) {
   });
 
   // activate new tab
-  //   event.target.parentElement.className += " active";
   document.getElementById(event.target.href.split('#')[1]).className
     += ' active';
   console.log(event.target.href.split('#')[1]);
